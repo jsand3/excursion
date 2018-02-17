@@ -46,13 +46,13 @@ var sassSources = ['src/**/*.scss'],
 
   //create html copy in build file
     gulp.task('copy', function() {
-      gulp.src('index.html')
+      gulp.src('index-1.html')
       .pipe(gulp.dest('build/'));
     });
 
     //watching for files (automate processing task on file saves)
     gulp.task('watch', function() {
-      gulp.watch('src/styles.scss', ['sass']);
+      gulp.watch('src/**/*.scss', ['sass']);
       gulp.watch('index.html', ['copy']);
     });
 

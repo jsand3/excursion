@@ -1,2 +1,35 @@
-$color-turquoise: cadetblue;
-$color-white: white;
+// Colors
+$color-primary: white;
+$color-secondary: black;
+$color-accent: aquamarine;
+$color-tertiary: grey;
+
+// Font Families
+$font-primary: 'Verdana', Sans-serif;
+
+// Font Size
+$font-size-sm: 16px;
+$font-size-md: 21px;
+$font-size-lg: 42px;
+$font-size-x-lg: 50px;
+
+// Font Weight
+$font-weight-light: 300;
+$font-weight-normal: normal;
+
+//  Common Paragraph Style
+$paragraph-font: $font-primary;
+$paragraph-font-size: $font-size-md;
+$paragraph-font-color: $color-tertiary;
+
+//  Common Header style
+$header-font: $font-primary;
+$header-font-size-h1: $font-size-x-lg;
+$header-font-size-h2: $font-size-lg;
+$header-color: $color-primary;
+$header-font-weight-normal: $font-weight-normal;
+$header-font-weight-light: $font-weight-light;
+
+// Link styles
+$link-color: $color-accent;
+$link-font-size: $font-size-sm;

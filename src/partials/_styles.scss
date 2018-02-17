@@ -1,12 +1,27 @@
 body {
-  color: $color-white;
-  font-size: 30px;
-  background-color: $color-turquoise;
-}
-
-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  font-family: $font-primary;
+  color: $color-primary;
   text-align: center;
+  background-color: $color-secondary;
+}
+p {
+  font-size: $paragraph-font-size;
+  color: $paragraph-font-color;
+}
+h1 {
+  font-size: $header-font-size-h1;
+  /* default font-weight is normal
+    so no font-weight styling needed.
+   */
+}
+h2 {
+  font-size: $header-font-size-h2;
+  font-weight: $header-font-weight-light;
+}
+a {
+  font-size: $link-font-size;
+  color: $link-color;
+}
+.text-align-right {
+  text-align: right;
 }
